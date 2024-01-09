@@ -1,0 +1,387 @@
+.customize {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    justify-content: space-between;
+    padding: 0px 158px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.customize .close {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    width: 60px;
+}
+
+.customize .close:hover {
+    cursor: pointer;
+}
+
+.customize .img {
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize .options {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.customize .paint {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+    position: relative;
+}
+
+.customize .paint:hover {
+    cursor: pointer;
+}
+
+.customize .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.customize .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 9px;
+    position: relative;
+
+    /* display: list-item;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center; */
+}
+
+.customize .ellipse {
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.customize .div {
+    background-color: #b92020;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize .ellipse-2 {
+    background-color: #0e4ca9;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize .ellipse-3 {
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+    position: relative;
+    width: 111px;
+
+}
+
+.customize .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.customize .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 9px;
+    position: relative;
+    width: 70%;
+}
+
+.customize .wheel {
+    height: 70px;
+    position: relative;
+    width: 70px;
+}
+.customize .wheel:hover {
+    cursor: pointer;
+}
+
+.customize .text-wrapper-3 {
+    align-self: stretch;
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    height: 29.51px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.customize .frame-3 {
+    align-items: center;
+    display: flex;
+    height: 61px;
+    justify-content: space-between;
+    position: relative;
+    width: 222px;
+   
+}
+
+.customize .ellipse-4 {
+    background-color: #1e1e1e;
+    border-radius: 38.21px/37.5px;
+    height: 50px;
+    margin-bottom: -7px;
+    margin-top: -7px;
+    position: relative;
+    width: 50px;
+}
+
+.customize .ellipse-4:hover {
+    cursor: pointer;
+}
+
+
+
+.picker {
+    position: absolute !important;
+    bottom: 4em;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px !important;
+    height: 120px !important;
+  }
+  
+  .color-options {
+  
+    display: list-item;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+  
+    /* gap: 10px;
+    margin-bottom: 60px;
+    top: 150px;
+    left: 0; */
+    /* z-index: 50; */
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.6s cubic-bezier(0.85, 0, 0.15, 1);
+  }
+  
+  .circle:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 1280px) {
+
+    .customize {
+        padding: 0px 100px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+
+    .customize {
+        padding: 0px 34px;
+    }
+
+    .customize .img {
+        height: 40px;
+        position: relative;
+        width: 40px;
+        }
+
+        .customize .text-wrapper {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .customize .ellipse {
+            height: 30px;
+            /* position: relative; */
+            width: 30px;
+        }
+        
+        .customize .div {
+            background-color: #b92020;
+            border-radius: 25px;
+            height: 30px;
+            position: relative;
+            width: 30px;
+        }
+        
+        .customize .ellipse-2 {
+            background-color: #0e4ca9;
+            border-radius: 25px;
+            height: 30px;
+            position: relative;
+            width: 30px;
+        }
+        
+        .customize .ellipse-3 {
+            background-color: #1e1e1e;
+            border-radius: 25px;
+            height: 30px;
+            position: relative;
+            width: 30px;
+        }
+
+        .customize .wheel {
+            height: 60px;
+            position: relative;
+            width: 60px;
+            }
+
+            .customize .frame-3 {
+                align-items: center;
+                display: flex;
+                gap: 2px;
+                height: 61px;
+                position: relative;
+                width: 155px;
+                }
+                .customize .ellipse-4 {
+                background-color: #1e1e1e;
+                border-radius: 20px;
+                height: 40px;
+                position: relative;
+                width: 40px;
+                }
+            }
+
+
+                @media screen and (max-width: 430px) {
+                    .customize {
+                        gap: 573px;
+                        padding: 0px 15px;
+                    }
+                
+                    .customize .img {
+                        height: 30px;
+                        position: relative;
+                        width: 30px;
+                        }
+                
+                        .customize .text-wrapper {
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+
+                        .customize .options {
+                            align-items: center;
+                            align-self: stretch;
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 10px;
+                
+                        .customize .ellipse {
+                            height: 30px;
+                            /* position: relative; */
+                            width: 30px;
+                        }
+                        
+                        .customize .div {
+                            background-color: #b92020;
+                            border-radius: 25px;
+                            height: 30px;
+                            position: relative;
+                            width: 30px;
+                        }
+                        
+                        .customize .ellipse-2 {
+                            background-color: #0e4ca9;
+                            border-radius: 25px;
+                            height: 30px;
+                            position: relative;
+                            width: 30px;
+                        }
+                        
+                        .customize .ellipse-3 {
+                            background-color: #1e1e1e;
+                            border-radius: 25px;
+                            height: 30px;
+                            position: relative;
+                            width: 30px;
+                        }
+                
+                        .customize .wheel {
+                            height: 60px;
+                            position: relative;
+                            width: 60px;
+                            }
+                
+                            .customize .frame-3 {
+                                align-items: center;
+                                display: flex;
+                                gap: 2px;
+                                height: 61px;
+                                position: relative;
+                                width: 155px;
+                                }
+                                .customize .ellipse-4 {
+                                background-color: #1e1e1e;
+                                border-radius: 20px;
+                                height: 40px;
+                                position: relative;
+                                width: 40px;
+                                }
+                }
+}

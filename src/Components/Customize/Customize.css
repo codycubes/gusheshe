@@ -1,0 +1,219 @@
+.customize-page {
+    align-items: flex-end;
+    display: flex;
+    height: 100dvh;
+    justify-content: space-between;
+    padding: 0px 161px;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+
+.customize-page .left-column {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 737px;
+    justify-content: flex-end;
+    position: relative;
+    width: 630px;
+}
+
+.customize-page .options {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 157px;
+    height: 122px;
+    position: relative;
+    width: 100%;
+}
+
+.customize-page .paint {
+    align-items: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+    height: 104px;
+    position: relative;
+}
+
+.customize-page .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.customize-page .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 9px;
+    position: relative;
+}
+
+.customize-page .ellipse {
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.customize-page .div {
+    background-color: #b92020;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+.customize-page .div:hover {
+    cursor: pointer;
+}
+
+.customize-page .ellipse-2 {
+    background-color: #0e4ca9;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize-page .ellipse-2:hover {
+    cursor: pointer;
+}
+
+.customize-page .ellipse-3 {
+    background-color: #1e1e1e;
+    border-radius: 25px;
+    height: 40px;
+    position: relative;
+    width: 40px;
+}
+
+.customize-page .ellipse-3:hover {
+    cursor: pointer;
+}
+
+.customize-page .wheels {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+.customize-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.customize-page .frame-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 9px;
+    position: relative;
+    width: 100%;
+}
+
+.customize-page .wheel {
+    height: 75px;
+    position: relative;
+    width: 75px;
+}
+
+.customize-page .wheel:hover {
+    cursor: pointer;
+}
+
+
+
+.customize-page .right-col {
+    align-items: flex-start;
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    justify-content: flex-end;
+    /* padding: 10px; */
+    position: relative;
+    width: 384px;
+}
+
+.customize-page .close {
+    height: 40px;
+    position: relative;
+    width: 40px;
+    margin-top: 40px;
+}
+
+.customize-page .close:hover {
+    cursor: pointer;
+}
+
+.customize-page .specs {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 300px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.customize-page .text-wrapper-3 {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.customize-page .p {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+}
+
+.customize-page .span {
+    color: #ffffff;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 50;
+    /* letter-spacing: 0; */
+}
+
+.customize-page .text-wrapper-4 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+}

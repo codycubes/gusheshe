@@ -1,0 +1,180 @@
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar .bmwlogo {
+    height: 60px;
+    object-fit: cover;
+    position: relative;
+    width: 60px;
+}
+
+.navbar .links {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 430px;
+}
+
+.navbar .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 52px;
+    position: relative;
+}
+
+.navbar .menu {
+    display: none;
+}
+
+.navbar .text-wrapper {
+    color: #ffffff;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 549;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.navbar .text-wrapper:hover {
+ cursor: pointer;
+}
+
+.navbar .icons {
+    align-items: flex-start;
+    display: flex;
+    gap: 23px;
+    height: 20px;
+    position: relative;
+    width: 70px;
+}
+
+.navbar .icon-person {
+    height: 18px;
+    position: relative;
+    width: 18px;
+}
+
+.navbar .icon-person:hover {
+    cursor: pointer;
+}
+
+.navbar .icon-magnifying {
+    height: 18px;
+    margin-right: -3.92px;
+    position: relative;
+    width: 18px;
+}
+
+.navbar .icon-magnifying:hover {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .navbar .frame  {
+        display: none;
+    }
+
+    .navbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 74px;
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar .menu {
+
+        position: relative;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        align-items: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar .icons {
+        display: none;
+    }
+/* 
+    .navbar .links {
+        width: auto; 
+    } */
+
+
+
+
+
+    
+}
+
+
+@media screen and (max-width: 744px) {
+    
+
+
+
+    .navbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 32px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .navbar .bmwlogo {
+        height: 70px;
+        object-fit: cover;
+        position: relative;
+        width: 70.73px;
+    }
+    
+    .navbar .menu {
+        height: 52.35px;
+        position: relative;
+        width: 47.33px;
+    }
+    
+}
+
+
+@media screen and (max-width: 430px) {
+    .navbar {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 18px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .navbar .bmwlogo{
+        height: 44.05px;
+        object-fit: cover;
+        position: relative;
+        width: 46.73px;
+    }
+    
+    .navbar .menu {
+        height: 29.33px;
+        position: relative;
+        width: 38.37px;
+    }
+     
+}
